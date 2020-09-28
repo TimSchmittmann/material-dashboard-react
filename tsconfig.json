@@ -4,6 +4,7 @@
     "./@types"
   ],
   "compilerOptions": {
+    "baseUrl": "./src",
     "target": "es2020",
     "lib": [
       "dom",
@@ -21,9 +22,9 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react"
+    "jsx": "react",
   },
   "include": [
-    "src"
-  ]
+    "./src"
+  ],
 }
